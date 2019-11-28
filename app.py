@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_file, request, redirect
+from flask import Flask, render_template, send_file, request, redirect, jsonify
 import PyPDF2
 from flask_mail import Mail, Message
 import os
@@ -30,10 +30,13 @@ def resume():
 @app.route('/send-email')
 def email():
     with app.app_context():
-        msg = Message(subject= request.args.get("subject"),
+          try:
+                msg = Message(subject= request.args.get("subject"),
                       sender=request.args.get("email"),
                       recipients=["nikjefni@gmail.com"], # replace with your email for testing
                       body=request.args.get("message"))
-        mail.send(msg)
-        return redirect("/contact.html")
+                mail.send(msg)
+                return redirect("/contact.html")
+            except Exception as e:
+                return jsonify({'status':False, 'message': str(e)})
 
