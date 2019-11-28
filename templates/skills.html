@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="./static/img/favicon.png" type="image/png">
+	<title>Jefni's Website</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./static/css/bootstrap.css">
+	<link rel="stylesheet" href="./static/vendors/linericon/style.css">
+	<link rel="stylesheet" href="./static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./static/vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="./static/vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="./static/vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="./static/vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="./static/vendors/popup/magnific-popup.css">
+	<link rel="stylesheet" href="./static/vendors/flaticon/flaticon.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="./static/css/style.css">
+	<link rel="stylesheet" href="./static/css/responsive.css">
+	<link rel="stylesheet" href="./static/css/card.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg></script>
+	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<link rel="stylesheet" href="./static/css/head.css">
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area color-grad">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container box_1620">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="/"><img src="./static/img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-me.html">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<!-- <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog</a></li> -->
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+	<section class="banner_area">
+		<div class="box_1620">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>Skills</h2>
+						<div class="page_link">
+							<a href="index.html">Home</a>
+							<a href="skills.html">Skills</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Feature Area =================-->
+
+	<!--================End Feature Area =================-->
+
+	<!--================Testimonials Area =================-->
+	<div class="upper-container">
+		<div class="box-wrapper">
+			<div class="upper-box">
+				<div class="card upper-card-a">
+					<div class="upper-card-container">
+						<div class="logo-learn">
+							<i class="far fa-lightbulb"
+								style="color: white;height: 90%;padding-top: 8px;width: 100%;"></i>
+						</div>
+						<div class="upper-card-content">
+							<h4 class="text-space"><b style="font-size: -webkit-xxx-large;"><span
+										class="Count">26</span></b></h4>
+							<p>Total Skills Learned</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="upper-box">
+				<div class="card upper-card-b">
+					<div class="upper-card-container">
+						<div class="logo-learn-b">
+							<i class="fas fa-database"
+								style="color: white;height: 90%;padding-top: 8px;width: 100%;"></i>
+						</div>
+						<div class="upper-card-content">
+							<h4 class="text-space"><b style="font-size: -webkit-xxx-large;"><span
+										class="Count">10</span></b></h4>
+							<p>Total Software Used</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="upper-box">
+				<div class="card upper-card-b">
+					<div class="upper-card-container">
+						<div class="logo-learn-c">
+							<i class="fas fa-clipboard-check"
+								style="color: white;height: 90%;padding-top: 8px;width: 100%;"></i>
+						</div>
+						<div class="upper-card-content">
+							<h4 class="text-space"><b style="font-size: -webkit-xxx-large;"><span
+										class="Count">4</span></b></h4>
+							<p>Total Projects Done</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lower-box-wrapper">
+			<div class="box">
+				<div class="card lower-container-a">
+					<canvas id="pie-chart" width="800" height="450"></canvas>
+				</div>
+			</div>
+			<div class="box">
+				<div class="card lower-container-b">
+					<div class="card-container" style="display: flex; justify-content: space-evenly;">
+						<h4 class="card-text"> See my resume </h4>
+						<a href="/my-resume">
+							<div style="height: 55px; padding-top: 10px;"><button class="resume-btn">resume</button>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6" style="margin: 0px 0px 25px 0px;">
+			<div class="card" style="height: 100%;">
+				<div class="card-container" style="width: 100%;">
+					<div class="tools_expert" style="padding: 0px;">
+						<div class="tab-wrap">
+							<input type="radio" name="tabs" id="tab1" checked>
+							<div class="tab-label-content" id="tab1-content" onclick="chartTab1()">
+								<label for="tab1" style="border-radius: 12px; padding: 10px;">Backend</label>
+								<div class="tab-content" style="width: 90%;">
+									<!-- <div id='chart1'> -->
+								</div>
+							</div>
+							<input type="radio" name="tabs" id="tab2">
+							<div class="tab-label-content" id="tab1-content" onclick="chartTab2()">
+								<label for="tab2" style="border-radius: 12px; padding: 10px;">Frontend</label>
+								<div class="tab-content" style="width: 90%;">
+									<!-- <div id='chart2'> -->
+								</div>
+							</div>
+							<input type="radio" name="tabs" id="tab3">
+							<div class="tab-label-content" id="tab1-content" onclick="chartTab3()">
+								<label for="tab3" style="border-radius: 12px; padding: 10px;">Documentation</label>
+								<div class="tab-content" style="width: 90%;">
+									<!-- <div id='chart3'> -->
+								</div>
+							</div>
+							<input type="radio" name="tabs" id="tab4">
+							<div class="tab-label-content" id="tab1-content" onclick="chartTab4()">
+								<label for="tab4" style="border-radius: 12px; padding: 10px;">Mobile</label>
+								<div class="tab-content" style="width: 90%;">
+									<!-- <div id='chart4'> -->
+								</div>
+							</div>
+
+						</div>
+						<div id='chart1'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--================End Testimonials Area =================-->
+
+	<!--================Footer Area =================-->
+	<footer class="footer_area p_120" style="width: 100%;">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h3>About Me</h3>
+						</div>
+						<p>In a short sentence, inspired to make the best out of this fascinating field of work.</p>
+						<p>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
+							template is made with <i class="far fa-heart" aria-hidden="true"></i> by <a
+								href="https://colorlib.com" target="_blank">Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</aside>
+				</div>
+				<div class="col-lg-2">
+					<aside class="f_widget social_widget">
+						<div class="f_title">
+							<h3>Follow Me</h3>
+						</div>
+						<p>Let us be social</p>
+						<ul class="list">
+							<li><a href="https://www.facebook.com/profile.php?id=100017210221381"><i
+										class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://twitter.com/minemizjek"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/nik-jefni-7bb678191/"><i
+										class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="./static/js/jquery-3.3.1.min.js"></script>
+	<script src="./static/js/popper.js"></script>
+	<script src="./static/js/bootstrap.min.js"></script>
+	<script src="./static/js/stellar.js"></script>
+	<script src="./static/vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="./static/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="./static/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="./static/vendors/isotope/isotope.pkgd.min.js"></script>
+	<script src="./static/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="./static/vendors/popup/jquery.magnific-popup.min.js"></script>
+	<script src="./static/js/jquery.ajaxchimp.min.js"></script>
+	<script src="./static/vendors/counter-up/jquery.waypoints.min.js"></script>
+	<script src="./static/vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="./static/js/mail-script.js"></script>
+	<script src="./static/js/theme.js"></script>
+	<script src="./static/js/apex.js"></script>
+	<script src="./static/js/chart.js"></script>
+	<script src="./static/js/counter.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+</body>
+
+</html>

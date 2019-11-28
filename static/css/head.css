@@ -1,0 +1,11 @@
+.color-grad{
+    background-image: linear-gradient(to right, #496ddb, #5571d5, #6075cf, #697ac9, #717ec3);
+}
+.pad-right{
+    padding-right: 80px;
+}
+.profile-img{
+    border-radius: 12px;
+    height: 800px;
+     width: 100%;
+}
