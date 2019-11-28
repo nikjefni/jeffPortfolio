@@ -132,14 +132,14 @@
 
                             var form = document.getElementById("contactForm");
                             function sendEmail() {
-                                if (sender_email.length == 0 || sender_message.length == 0 || sender_subject.length == 0 || sender_email.length == 0) {
-                                    document.getElementById('errMessage').innerHTML = "Please fill in all the blanks to submit"
-                                }
-                                else {
+                                // if (sender_email.length == 0 || sender_message.length == 0 || sender_subject.length == 0 || sender_email.length == 0) {
+                                //     document.getElementById('errMessage').innerHTML = "Please fill in all the blanks to submit"
+                                // }
+                                // else {
                                     form.action = "/send-email?name=" + sender_name + "&email=" + sender_email + "&subject="
                                         + sender_subject + "&message=" + sender_message;
                                     form.submit();
-                                }
+                                // }
                             }
                         </script>
                     </form>
