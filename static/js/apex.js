@@ -18,10 +18,10 @@ var options = {
         enabled: false
     },
     series: [{
-        data: [85, 85, 85,85, 70, 70, 65, 60, 55, 70, 50, 40]
+        data: [85, 85, 85,85, 70, 70, 65, 60, 65, 55, 70, 50, 40]
     }],
     xaxis: {
-        categories: ['Node.JS', 'Express.JS', 'PostgreSQL', 'Knex.JS', 'Flask', 'Python', 'Laravel', 'PHP', 'JSON', 'JSON Web Token', 'Socket.io', 'Redis'],
+        categories: ['Node.JS', 'Express.JS', 'PostgreSQL', 'Knex.JS', 'Flask', 'Python', 'Laravel', 'PHP', 'Postman','JSON', 'JSON Web Token', 'Socket.io', 'Redis'],
     }
 }
 
@@ -40,10 +40,10 @@ function chartTab1() {
             colors: "#3e95cd"
         },
         series: [{
-            data: [85, 85, 85,85, 70, 70, 65, 60, 55, 70, 50, 40]
+            data: [85, 85, 85,85, 70, 70, 65, 60, 65, 55, 70, 50, 40]
         }],
         xaxis: {
-            categories: ['Node.JS', 'Express.JS', 'PostgreSQL', 'Knex.JS', 'Flask', 'Python', 'Laravel', 'PHP', 'JSON', 'JSON Web Token', 'Socket.io', 'Redis'],
+            categories: ['Node.JS', 'Express.JS', 'PostgreSQL', 'Knex.JS', 'Flask', 'Python', 'Laravel', 'PHP', 'Postman','JSON', 'JSON Web Token', 'Socket.io', 'Redis'],
         }
     })
 }

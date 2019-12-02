@@ -25,18 +25,20 @@ def html_page(page_name):
 
 @app.route('/my-resume')
 def resume():
-    return send_file('./static/img/my-resume.pdf', attachment_filename='my-resume.pdf')
+    return send_file('./static/img/myResume.pdf', attachment_filename='my-resume.pdf')
+
 
 @app.route('/send-email')
 def email():
     with app.app_context():
         try:
-            msg = Message(subject= request.args.get("subject"),
-                    sender=request.args.get("email"),
-                    recipients=["nikjefni@gmail.com"], # replace with your email for testing
-                    body=request.args.get("message"))
+            msg = Message(subject=request.args.get("subject"),
+                          sender=request.args.get("email"),
+                          # replace with your email for testing
+                          recipients=["nikjefni@gmail.com"],
+                          body=request.args.get("message"))
             mail.send(msg)
             return redirect("/contact.html")
         except Exception as e:
-            return jsonify({'status':False, 'message': str(e)})
-
+            print(e)
+            return jsonify({'status': False, 'message': str(e)})

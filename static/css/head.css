@@ -8,4 +8,25 @@
     border-radius: 12px;
     height: 800px;
      width: 100%;
+} 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    .profile-img{
+        border-radius: 12px;
+        height: 400px;
+         width: 100%;
+    } 
+}
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .profile-img{
+        border-radius: 12px;
+        height: 400px;
+         width: 100%;
+    } 
+}
+@media screen and (max-width: 800px) {
+    .profile-img{
+        border-radius: 12px;
+        height: 400px;
+         width: 100%;
+    } 
 }
