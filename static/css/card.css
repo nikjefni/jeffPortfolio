@@ -213,7 +213,7 @@ label {
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
   h1 {
-    padding: 40px 0 90px 10%;
+    padding: 20px 0 0px 10%;
   }
   .tab-wrap {
     top: -106px;
@@ -256,7 +256,7 @@ label {
 
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   h1 {
-    padding: 40px 0 90px 10%;
+    padding: 20px 0 0px 10%;
   }
   .tab-wrap {
     top: -106px;
@@ -299,7 +299,7 @@ label {
 
 @media screen and (max-width: 800px) {
   h1 {
-    padding: 40px 0 90px 10%;
+    padding: 20px 0 0px 10%;
   }
   .tab-wrap {
     top: -106px;
